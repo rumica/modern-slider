@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #e4d1d1;
+  height: 100%;
+  overflow: hidden;
+  color: white;
+}
+body .main-container {
+  height: 100vh;
+  display: inline-flex;
+  overflow: hidden;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+body .main-container .slide {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-height: 100vh;
+  width: 100vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+body .main-container .slide img {
+  width: 300px;
+}/*# sourceMappingURL=style.css.map */
