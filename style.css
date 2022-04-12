@@ -26,7 +26,7 @@ body .main-container .slide {
   padding: 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   max-height: 100vh;
   width: 100vw;
@@ -37,4 +37,16 @@ body .main-container .slide {
 }
 body .main-container .slide img {
   width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+body .main-container .slide h2 {
+  font-size: 50px;
+}
+
+.grabbing {
+  cursor: pointer;
+}
+
+.grabbing .slide img {
+  transform: scale(0.9);
 }/*# sourceMappingURL=style.css.map */
